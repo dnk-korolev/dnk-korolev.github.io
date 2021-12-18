@@ -163,7 +163,7 @@ html, body {
     padding: 5px;
 }
 .logo {
-    background: url("source/img/mobile_dnk/logo.png") no-repeat;
+    background: url("../../img/mobile_dnk/logo.png") no-repeat;
     background-size: contain;
     width: 98px;
     height: 98px;
@@ -184,7 +184,7 @@ html, body {
     color: #fff;
 }
 .site {
-    background: url("source/img/mobile_dnk/social_web.svg") no-repeat;
+    background: url("../../img/mobile_dnk/social_web.svg") no-repeat;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -192,7 +192,7 @@ html, body {
     margin-right: 5px;
 }
 .vk {
-    background: url("source/img/mobile_dnk/social_vk.svg") no-repeat;
+    background: url("../../img/mobile_dnk/social_vk.svg") no-repeat;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -200,7 +200,7 @@ html, body {
     margin-right: 5px;
 }
 .ig {
-    background: url("source/img/mobile_dnk/social_inst.svg") no-repeat;
+    background: url("../../img/mobile_dnk/social_inst.svg") no-repeat;
     background-size: contain;
     width: 20px;
     height: 20px;
