@@ -1,0 +1,209 @@
+@font-face { 
+    font-family: "Gotham Pro"; 
+    src: local("Gotham Pro Bold"), local("GothamPro-Bold"), url("../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Bold.woff") format("woff"), url("../fonts/GothamPro-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}
+@font-face { 
+    font-family: "Gotham Pro"; 
+    src: local("Gotham Pro"), local("GothamPro"), url("../fonts/GothamPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro.woff") format("woff"), url("../fonts/GothamPro.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+html, body {
+    height: 100%;
+    font-family: 'Gotham Pro', arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+#screen {
+    display: table;
+    background: linear-gradient(to bottom, #1d345e, #182641);
+}
+#container {
+    width: 500px;
+    text-align: center;
+    display: table-cell;
+}
+#button {
+    background-color: #feca1e;
+    color: #1c2149;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.214em;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 23px;
+    padding-left: 36px;
+    padding-right: 36px;
+    box-shadow: 0px 3px 10px rgba(0,0,0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+#button:hover {
+    box-shadow: 0px 3px 10px rgba(0,0,0, 0.8);
+    background-color: #ffc401;
+}
+.button {
+    margin-top: 45px;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover {
+    margin-top: 40px;
+}
+#card {
+    background-color: #fff;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5px 18px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0px 3px 10px rgba(0,0,0, 0.2);
+}
+.navigator {
+    font-size: 0.857em;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.navigator > span {
+    width: 25%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+.navigator > span > div {
+    width: 100%;
+    min-width: 50px;
+    height: calc(80% - 20px);
+    min-height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#ut-navigator {
+    color: #F7A30A;
+    float: left;
+}
+.ut-logo {
+    background-image: url("https://dnk.unitech-mo.ru/documents/10/dnk1.svg");
+}
+#du-navigator {
+    color: #B6BE35;
+    float: left;
+}
+.du-logo {
+    background-image: url("https://dnk.unitech-mo.ru/documents/11/dnk2.svg");
+}
+#ma-navigator {
+    color: #00ABC7;
+    float: left;
+}
+.ma-logo {
+    background-image: url("https://dnk.unitech-mo.ru/documents/12/dnk3.svg");
+}
+#navigator-21 {
+    color: #8C82BE;
+    float: left;
+}
+.logo-21 {
+    background-image: url("https://dnk.unitech-mo.ru/documents/13/dnk4.svg");
+}
+
+.navigator-title {
+    font-size: 1.214em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    word-break: break-word;
+}
+.navigator-title::after {
+    background: #feca1e;
+    content: '';
+    border-radius: 2px;
+    width: 50px;
+    height: 5px;
+    margin: 6px auto;
+    position: absolute;
+    right: 16px;
+}
+.navigator-title::before {
+    background: #feca1e;
+    content: '';
+    border-radius: 2px;
+    width: 50px;
+    height: 5px;
+    margin: 6px auto;
+    position: absolute;
+    left: 16px;
+}
+.nav-margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.links {
+    width: 230px;
+    font-size: 1.214em;
+    text-align: start;
+    margin: 15px auto;
+}
+.link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link a:link, .link a:visited {
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+.link a:hover {
+    padding: 5px;
+}
+.logo {
+    background: url("source/img/mobile_dnk/logo.png") no-repeat;
+    background-size: contain;
+    width: 98px;
+    height: 98px;
+    margin: 15px auto;
+}
+.logo-title {
+    font-weight: bold;
+    font-size: 0.857em;
+    margin-bottom: 15px;
+}
+.yellow-text {
+    color: #feca1e;
+}
+.blue-text {
+    color: #2e385b;
+}
+.white-text {
+    color: #fff;
+}
+.site {
+    background: url("source/img/mobile_dnk/social_web.svg") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+.vk {
+    background: url("source/img/mobile_dnk/social_vk.svg") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+.ig {
+    background: url("source/img/mobile_dnk/social_inst.svg") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    margin-right: 5px;
+}
